@@ -8222,10 +8222,8 @@
         nif:anchorOf """presidency"""^^xsd:string ;
         nif:beginIndex "86"^^xsd:nonNegativeInteger ;
         nif:endIndex "96"^^xsd:nonNegativeInteger ;
-        itsrdf:taClassRef el:PoS-NounSingular, el:Ref-Direct, el:Mnt-CommonForm, el:Olp-Minimal ;
-        itsrdf:taIdentRef <https://en.wikipedia.org/wiki/Presidency> .
-
-<https://en.wikipedia.org/wiki/Presidency> mnt:entityType mnt:Miscellany .
+        itsrdf:taClassRef el:Mnt-CommonForm, el:Ref-Related, el:Olp-None, el:PoS-NounSingular ;
+        itsrdf:taIdentRef <https://en.wikipedia.org/wiki/President_of_the_United_States> .
 
 <http://ace2004/dataset/20001115_AFP_ARB.0013.eng_sentence38#char=86,96;2>
         a nif:String , nif:Context , nif:Phrase , nif:RFC5147String ;
@@ -8234,8 +8232,10 @@
         nif:anchorOf """presidency"""^^xsd:string ;
         nif:beginIndex "86"^^xsd:nonNegativeInteger ;
         nif:endIndex "96"^^xsd:nonNegativeInteger ;
-        itsrdf:taClassRef el:Mnt-CommonForm, el:Ref-Related, el:Olp-None, el:PoS-NounSingular ;
-        itsrdf:taIdentRef <https://en.wikipedia.org/wiki/President_of_the_United_States> .
+        itsrdf:taClassRef el:PoS-NounSingular, el:Ref-Direct, el:Mnt-CommonForm, el:Olp-None ;
+        itsrdf:taIdentRef <https://en.wikipedia.org/wiki/Presidency> .
+
+<https://en.wikipedia.org/wiki/Presidency> mnt:entityType mnt:Miscellany .
 
 <http://ace2004/dataset/20001115_AFP_ARB.0013.eng_sentence38#char=100,132>
         a nif:String , nif:Context , nif:Phrase , nif:RFC5147String ;
@@ -16039,7 +16039,7 @@
         nif:anchorOf """sixth"""^^xsd:string ;
         nif:beginIndex "65"^^xsd:nonNegativeInteger ;
         nif:endIndex "70"^^xsd:nonNegativeInteger ;
-        itsrdf:taClassRef el:Ref-Direct, el:Mnt-NumericTemporal, el:PoS-Adjective, el:PoS-NounPlural, el:Olp-None ;
+        itsrdf:taClassRef el:Ref-Direct, el:Mnt-NumericTemporal, el:PoS-NounPlural, el:Olp-None ;
         itsrdf:taIdentRef <https://en.wikipedia.org/wiki/6> .
 
 <http://ace2004/dataset/20001115_AFP_ARB.0072.eng_sentence78#char=79,84>
@@ -17584,7 +17584,7 @@
         nif:anchorOf """settlers"""^^xsd:string ;
         nif:beginIndex "218"^^xsd:nonNegativeInteger ;
         nif:endIndex "226"^^xsd:nonNegativeInteger ;
-        itsrdf:taClassRef el:Mnt-CommonForm, el:PoS-NounPlural, el:PoS-Adjective, el:Ref-Direct, el:Olp-None ;
+        itsrdf:taClassRef el:Mnt-CommonForm, el:PoS-NounPlural, el:Ref-Direct, el:Olp-None ;
         itsrdf:taIdentRef <https://en.wikipedia.org/wiki/Settler> .
 
 <https://en.wikipedia.org/wiki/Settler> mnt:entityType mnt:Miscellany .
@@ -34895,8 +34895,6 @@ Bad misspelling here, will add as an alias."""^^xsd:string ;
         nif:endIndex "152"^^xsd:nonNegativeInteger ;
         itsrdf:taClassRef el:Mnt-CommonForm, el:PoS-NounSingular, el:Ref-Related, el:Olp-None ;
         itsrdf:taIdentRef < https://en.wikipedia.org/wiki/Executive_director> .
-
-< https://en.wikipedia.org/wiki/Executive_director> mnt:entityType mnt:Miscellany .
 
 <http://ace2004/dataset/APW20001017.1313.0396_sentence193#char=154,165>
         a nif:String , nif:Context , nif:Phrase , nif:RFC5147String ;
