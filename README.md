@@ -6,5 +6,5 @@ We release in this repository three datasets that have been re-annotated and cat
 Fine-Grained Evaluation for Entity Linking. Henry Rosales-Méndez, Aidan Hogan and Barbara Poblete. EMNLP, 3 - 7 November 2019. Hong Kong, China.
 ```
 
-This paper (available [here](https://users.dcc.uchile.cl/~hrosales/papers/2019_EMNLP.pdf)) is going to be presented at [EMNLP'19](https://www.emnlp-ijcnlp2019.org).
+This paper (available [here](http://aidanhogan.com/docs/fine_grained_entity_linking.pdf)) is going to be presented at [EMNLP'19](https://www.emnlp-ijcnlp2019.org).
 
